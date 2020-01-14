@@ -8,8 +8,9 @@ This is an effort to keep track of the comparisons of how to do basic things acr
 - Python
 
 ## Index:
-- Declare a variable
-- Declare a function
-- Loops
-- Incrementing a value
-- 
+- Variables
+  - Declaring a variable
+  - Types of variables
+  - Incrementing a value
+- Functions
+- Loops 
