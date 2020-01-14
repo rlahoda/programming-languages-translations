@@ -1,95 +1,107 @@
 # Variable Types
 
 ## Javascript
-String
+**String**
 ```
 const variableName = "variable contents";
 ```
-Number
+**Number**
+This includes both integers and floating point numbers
+
 ```
 const variableName = 1.01;
+const variableName = 5;
 ```
-Function
+**Function**
 ```
 const variableName = function() {a+b};
 const variableName = () => {a+b};
 ```
-Object
+**Object**
 ```
 const variableName = { key1: value1, key2: value2};
 ```
-Array
+**Array**
 ```
 const variableName = [value1, value2];
 ```
-Null
+**Null**
 ```
 const variableName = null;
 ```
-Boolean
+**Boolean**
 ```
 const variableName = true;
 const variableName = false;
 ```
 
 ## PHP
-String
+**String**
 ```
-const variableName = "variable contents";
+variableName = "variable contents";
 ```
-Number
+**Number**
+This includes both integers and floating point numbers
+
 ```
 const variableName = 1.01;
+const variableName = 5;
 ```
-Function
+**Function**
 ```
 const variableName = function() {a+b};
 const variableName = () => {a+b};
 ```
-Object
+**Object**
 ```
 const variableName = { key1: value1, key2: value2};
 ```
-Array
+**Array**
 ```
 const variableName = [value1, value2];
 ```
-Null
+**Null**
 ```
 const variableName = null;
 ```
-Boolean
+**Boolean**
 ```
 const variableName = true;
 const variableName = false;
 ```
+
 ## Python
-String
+**String**
 ```
 const variableName = "variable contents";
 ```
-Number
+**Integer**
+```
+const variableName = 5;
+```
+**Float**
 ```
 const variableName = 1.01;
 ```
-Function
+**Function**
 ```
 const variableName = function() {a+b};
 const variableName = () => {a+b};
 ```
-Object
+**Object**
 ```
 const variableName = { key1: value1, key2: value2};
 ```
-Array
+**Array**
 ```
-const variableName = [value1, value2];
+from array import *                     # needed to create array
+const variableName = array('i',[1, 2]); # format is: array(typecode, [arrayContents])
 ```
-Null
+**Null**
 ```
 const variableName = null;
 ```
-Boolean
+**Boolean**
 ```
 const variableName = true;
 const variableName = false;
